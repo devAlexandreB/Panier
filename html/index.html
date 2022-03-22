@@ -1,0 +1,70 @@
+<div class="floatleft">
+    <img class="taille300 panier" src="panier.jpg"/>
+</div>
+<div class="floatleft">
+    <div class='orange'>
+        <img class="taille100 floatleft" src="oranges.png"/>
+        <ul class="floatleft">
+            {listeOrange}
+        </ul>
+        <div class="floatleft">
+            <form method="POST" action="#">
+                <div>
+                    <label for="poidsOrange">Poid total</label>
+                    <input type="number" id="poidsOrange" name="poidsOrange"/>
+                </div>
+                <div>
+                    <label for="prixOrange">Prix total</label>
+                    <input type="number" id="prixOrange" name="prixOrange"/>
+                </div>
+                <input type="submit" value="Valider">
+            </form>
+        </div>
+        <div class="floatleft orangeResultat">{orangeResultat}</div>
+    </div>
+    <div class="clearBoth"></div>
+    <div class='fraise'>
+        <img class="taille100 floatleft" src="fraises.png"/>
+        <ul class="floatleft">
+            {listeFraise}
+        </ul>
+        <div class="floatleft">
+            <form method="POST" action="#">
+                <div>
+                    <label for="poidsFraise">Poid total</label>
+                    <input type="number" id="poidsFraise" name="poidsFraise"/>
+                </div>
+                <div>
+                    <label for="prixFraise">Prix total</label>
+                    <input type="number" id="prixFraise" name="prixFraise"/>
+                </div>
+                <input type="submit" value="Valider">
+            </form>
+        </div>
+        <div class="floatleft fraiseResultat">{fraiseResultat}</div>
+    </div>
+    <div class="clearBoth"></div>
+    <div class='clementine'>
+        <img class="taille100 floatleft" src="clementines.jpg"/>
+        <ul class="floatleft">
+            {listeClementine}
+        </ul>
+        <div class="floatleft">
+            <form method="POST" action="#">
+                <div>
+                    <label for="poidsClementine">Poid total</label>
+                    <input type="number" id="poidsClementine" name="poidsClementine"/>
+                </div>
+                <div>
+                    <label for="prixClementine">Prix total</label>
+                    <input type="number" id="prixClementine" name="prixClementine"/>
+                </div>
+                <input type="submit" value="Valider"/>
+            </form>
+        </div>
+        <div class="floatleft clementineResultat">{clementineResultat}</div>
+    </div>
+</div>
+<div class="clearBoth"></div>
+<div class="fin"></div>
+<script src="js_client.js"></script>
